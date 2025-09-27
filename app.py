@@ -188,11 +188,11 @@ st.markdown("""
          background-color: transparent;
     }
     .stSidebar button {
-         background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%);
+        background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%);
         color: white; 
         border: 2px solid var(--light-dark-1004, #FFFFFF0A);
         border-radius: 16px; 
-        padding: 12px; 
+        padding: 8px; 
     }
     .st-emotion-cache-hzygls  {
         background-color: #161616 !important; 
