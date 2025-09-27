@@ -65,7 +65,7 @@ st.markdown("""
         border-radius: 1.5rem;
         margin-bottom: 1rem;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-center;
         background-color: rgba(255, 255, 255, 0.05);
         border: 1px solid rgba(255, 255, 255, 0.1);
         box-shadow: 0px 0.84px 0px 0px #FFFFFF14 inset;
