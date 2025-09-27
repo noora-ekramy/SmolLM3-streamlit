@@ -262,7 +262,7 @@ def display_chat_message(role: str, content: str, show_thinking: bool = True):
         content_html = ""
         if thinking:
             content_html += f'<div class="default-container"><div class="thinking-text">Thinking: {thinking}</div></div>'
-        content_html += f'<div class="default-container"><div class="response-text">{response}</div></div>'
+        content_html += f'<div class="response-text">{response}</div>'
     else:
         content_html = f'<div class="response-text">{content}</div>'
     
