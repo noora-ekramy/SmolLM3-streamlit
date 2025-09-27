@@ -159,9 +159,11 @@ st.markdown("""
         border: 2px solid var(--light-dark-1004, #FFFFFF0A);
         background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%);
     }
-    .st-emotion-cache-x1bvup:active{
+    .st-emotion-cache-x1bvup:hover{
         box-shadow: 0px 0.84px 0px 0px #FFFFFF14 inset;
         box-shadow: 2px 2px 19px 0px #FFFFFF1A;
+        border: 2px solid var(--light-dark-1004, #FFFFFF0A);
+
     }
     .st-emotion-cache-x1bvup textarea {
         background-color: transparent;
