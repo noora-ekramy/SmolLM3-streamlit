@@ -231,10 +231,10 @@ def display_chat_message(role: str, content: str, show_thinking: bool = True):
 
 def chat_page():
     """Chat interface page"""
-    # Title and description with custom styling
-    st.markdown('<div class="header">Trex 1.5 — Advanced AI Chat Interface</div>', unsafe_allow_html=True)
-    # st.markdown('<div class="tagline">Advanced AI Chat with Customizable Parameters</div>', unsafe_allow_html=True)
-    st.markdown('<div class="subtagline">Engage with the Trex 1.5 model through a sleek chat interface offering full parameter customization for a tailored AI experience.</div>', unsafe_allow_html=True)
+      if not st.session_state.has_started:
+        st.markdown('<div class="header">trex1.5 Chat Interface</div>', unsafe_allow_html=True)
+        st.markdown('<div class="tagline">Advanced AI Chat with Customizable Parameters</div>', unsafe_allow_html=True)
+        st.markdown('<div class="subtagline">Chat with trex1.5 model with full parameter control</div>', unsafe_allow_html=True)
     
     # Sidebar for API configuration and parameters
     with st.sidebar:
