@@ -153,10 +153,10 @@ st.markdown("""
       
     }
     .st-emotion-cache-x1bvup exaa2ht1 {
-        background: linear-gradient(117.45deg, rgba(255, 255, 255, 0) -3.91%, rgba(255, 255, 255, 0.039) 75.27%);
-        border: 2px solid;
-        border-image-source: radial-gradient(69.43% 69.43% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-        backdrop-filter: blur(42px)
+        background: linear-gradient(117.45deg, rgba(255, 255, 255, 0) -3.91%, rgba(255, 255, 255, 0.039) 75.27%) !important;
+        border: 2px solid !important;
+        border-image-source: radial-gradient(69.43% 69.43% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) !important;
+        backdrop-filter: blur(42px) !important ;
     }
     </style>
     """, unsafe_allow_html=True)
