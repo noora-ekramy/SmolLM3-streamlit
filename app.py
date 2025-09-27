@@ -61,17 +61,20 @@ st.markdown("""
     }
     .chat-message {
         padding: 1rem;
-        border-radius: 0.5rem;
+        border-radius: 1.5rem;
         margin-bottom: 1rem;
         display: flex;
         align-items: flex-start;
         background-color: rgba(255, 255, 255, 0.05);
         border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 0.84px 0px 0px #FFFFFF14 inset;
+        box-shadow: 2px 2px 19px 0px #FFFFFF1A;
     }
     .chat-message.user {
         flex-direction: row-reverse;
         background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%);
         border: 0.84px solid var(--light-dark-1004, #FFFFFF0A)
+        
     }
     .chat-message.assistant {
         background-color: rgba(164, 255, 255, 0.05);
