@@ -70,7 +70,8 @@ st.markdown("""
     }
     .chat-message.user {
         flex-direction: row-reverse;
-        background-color: rgba(101, 218, 255, 0.1);
+        background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%);
+        border: 0.84px solid var(--light-dark-1004, #FFFFFF0A)
     }
     .chat-message.assistant {
         background-color: rgba(164, 255, 255, 0.05);
@@ -84,8 +85,9 @@ st.markdown("""
         align-items: center;
         justify-content: center;
         font-weight: bold;
-        background-color: rgba(101, 218, 255, 0.2);
-        color: #65daff;
+        background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%),
+        linear-gradient(0deg, rgba(82, 82, 82, 0.2), rgba(82, 82, 82, 0.2));
+        color: #FFFFFF;
     }
     .chat-message.user .avatar {
         background-color: rgba(164, 255, 255, 0.2);
