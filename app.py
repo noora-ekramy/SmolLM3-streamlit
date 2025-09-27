@@ -158,6 +158,9 @@ st.markdown("""
         border-image-source: radial-gradient(69.43% 69.43% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) !important;
         backdrop-filter: blur(42px) !important ;
     }
+    .st-emotion-cache-x1bvup textarea {
+            background-color: #38383880;
+    }
     </style>
     """, unsafe_allow_html=True)
 
