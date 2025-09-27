@@ -129,8 +129,10 @@ st.markdown("""
         font-weight: normal;
     }
     .stSidebar{
-        background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%);
+        background: linear-gradient(304deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%);
         backdrop-filter: blur(87.27272033691406px)
+        box-shadow: 0px 0.84px 0px 0px #FFFFFF14 inset;
+        box-shadow: 2px 2px 19px 0px #FFFFFF1A;
     }
     .sidebar-section {
         padding: 1rem;
