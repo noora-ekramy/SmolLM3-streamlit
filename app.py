@@ -154,7 +154,7 @@ st.markdown("""
     }
     .st-emotion-cache-x1bvup  {
         background: #38383880 !important;
-        border: 2px solid !important;
+        border: 1px solid !important;
         background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%);
 
     }
