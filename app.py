@@ -129,11 +129,12 @@ st.markdown("""
         font-weight: normal;
     }
     .sidebar-section {
-        background-color: rgba(255, 255, 255, 0.05);
         padding: 1rem;
         border-radius: 0.5rem;
         margin-bottom: 1rem;
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%);
+        backdrop-filter: blur(87.27272033691406px)
+
     }
     .stTextInput > div > div > input {
         background-color: rgba(255, 255, 255, 0.1);
