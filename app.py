@@ -153,8 +153,6 @@ st.markdown("""
     .st-emotion-cache-hzygls  {
         background-color: #161616 !important; 
         border: none !important; 
-              height:100px;
-
     }
     .st-emotion-cache-x1bvup  {
         background: #38383880 !important;
@@ -164,12 +162,10 @@ st.markdown("""
 
     }
     .st-emotion-cache-x1bvup textarea {
-            background-color: transparent;
-                    height:100px;
-
+        background-color: transparent;
     }
     .st-emotion-cache-x1bvup .st-f9{
-    background-color:transparent;
+        background-color: transparent;
     }
     </style>
     """, unsafe_allow_html=True)
