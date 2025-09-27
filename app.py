@@ -262,9 +262,9 @@ def display_chat_message(role: str, content: str, show_thinking: bool = True):
         content_html = ""
         if thinking:
             content_html += f'<div class="thinking-container"><div class="thinking-text">Thinking: {thinking}</div></div>'
-        content_html += f'<div class="response-text">{response}</div>'
+        content_html += f'<div class="thinking-container"><div class="response-text">{response}</div></div>'
     else:
-        content_html = f'<div class="response-text">{content}</div>'
+        content_html = f'<div class="thinking-container"><div class="response-text">{content}</div></div>'
     
     st.markdown(f"""
     <div class="chat-message {css_class}">
