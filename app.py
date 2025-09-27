@@ -71,11 +71,12 @@ st.markdown("""
         box-shadow: 2px 2px 19px 0px #FFFFFF1A;
     }
     .chat-message.user {
-        flex-direction: row-reverse;
+      
         background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%);
         border: 0.84px solid var(--light-dark-1004, #FFFFFF0A)
         display: inline-block; 
         width: fit-content;
+        min-width: 300px;
     }
     .chat-message.assistant {
         background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%),
