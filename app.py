@@ -171,7 +171,7 @@ st.markdown("""
         background-color: transparent;
     }
     .st-emotion-cache-x1bvup .st-e6 {
-        border:none
+        border:none !important
     }
     .st-emotion-cache-x1bvup .st-e5 {
         border:none
