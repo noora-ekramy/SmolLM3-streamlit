@@ -41,7 +41,7 @@ st.markdown("""
         margin-top: -10px;
     }
     .subtagline {
-        font-size: 14px;
+        font-size: 19px;
         color: #fcfcfc;
         text-align: center;
         padding:20px;
