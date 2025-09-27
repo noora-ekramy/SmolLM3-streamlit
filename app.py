@@ -183,6 +183,9 @@ st.markdown("""
         box-shadow: 2px 2px 19px 0px #FFFFFF1A;
         border: 1px solid rgba(255, 255, 255, 0.1);
     }
+    .st-emotion-cache-liupih{
+        padding-bottom: 20px;
+    }
     
     </style>
     """, unsafe_allow_html=True)
