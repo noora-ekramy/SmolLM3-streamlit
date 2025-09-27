@@ -112,7 +112,9 @@ st.markdown("""
         background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%),
         linear-gradient(0deg, rgba(82, 82, 82, 0.2), rgba(82, 82, 82, 0.2));
         margin: 10px 0;
-        flex-direction: row-reverse;
+        
+    }
+    .thinking-container{
         padding: 1rem;
         border-radius: 1.5rem;
         margin-bottom: 1rem;
@@ -256,7 +258,7 @@ def display_chat_message(role: str, content: str, show_thinking: bool = True):
         
         content_html = ""
         if thinking:
-            content_html += f'<div class="thinking-text">Thinking: {thinking}</div>'
+            content_html += f'<div class="thinking-container"><div class="thinking-text">Thinking: {thinking}</div></div>'
         content_html += f'<div class="response-text">{response}</div>'
     else:
         content_html = f'<div class="response-text">{content}</div>'
