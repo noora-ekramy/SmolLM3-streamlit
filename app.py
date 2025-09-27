@@ -140,10 +140,10 @@ st.markdown("""
         border: 1px solid rgba(255, 255, 255, 0.1);
         background-color:#2B2B2B;
     }
-    div[data-baseweb="select"] li {
+    div[data-baseweb="popover"] li {
         background-color: black;
     }
-    div[data-baseweb="select"] li:hover {
+    div[data-baseweb="popover"] li:hover {
         background-color: #2B2B2B;
     }
     .sidebar-section {
