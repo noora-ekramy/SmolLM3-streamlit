@@ -211,6 +211,13 @@ st.markdown("""
         border-radius: 16px; 
         padding: 12px; 
     }
+    .st-emotion-cache-19cfm8f .st-emotion-cache-1k5fi8b {
+        background-color: transparent;
+    }
+    
+    div[data-baseweb="base-input"] {
+         background-color: transparent;
+    }
     </style>
     """, unsafe_allow_html=True)
 
