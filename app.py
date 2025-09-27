@@ -138,7 +138,7 @@ st.markdown("""
         padding: 1rem;
         border-radius: 0.5rem;
         margin-bottom: 1rem;
-        background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%);
+        background: linear-gradient(105.13deg, #292929 41.52% 41.52% , rgba(63, 63, 63, 0) 100%);
         backdrop-filter: blur(87.27272033691406px)
 
     }
