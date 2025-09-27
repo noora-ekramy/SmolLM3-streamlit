@@ -152,7 +152,7 @@ st.markdown("""
         border: none !important; 
       
     }
-    .st-emotion-cache-x1bvup exaa2ht1 {
+    .st-emotion-cache-x1bvup  {
         background: linear-gradient(117.45deg, rgba(255, 255, 255, 0) -3.91%, rgba(255, 255, 255, 0.039) 75.27%) !important;
         border: 2px solid !important;
         border-image-source: radial-gradient(69.43% 69.43% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) !important;
