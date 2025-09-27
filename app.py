@@ -36,9 +36,10 @@ st.markdown("""
     .tagline {
         font-size: 20px;
         font-weight: bold;
-        color: #a4ffff;
+        color: #FFFFFF;
         text-align: center;
         margin-top: -10px;
+        margin-bottom: 20px;
     }
     .subtagline {
         font-size: 19px;
