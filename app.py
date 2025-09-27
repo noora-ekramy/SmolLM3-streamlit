@@ -147,6 +147,11 @@ st.markdown("""
         border-radius: 8px; 
         padding: 12px; 
     }
+    .stBottomBlockContainer {
+        background-color: #161616; 
+        border-top: 1px solid #FFFFFF0A; 
+      
+    }
     </style>
     """, unsafe_allow_html=True)
 
