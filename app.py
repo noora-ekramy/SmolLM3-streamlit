@@ -138,7 +138,7 @@ st.markdown("""
         box-shadow: 0px 0.84px 0px 0px #FFFFFF14 inset;
         box-shadow: 2px 2px 19px 0px #FFFFFF1A;
         border: 1px solid rgba(255, 255, 255, 0.1);
-       
+        background-color:#2B2B2B;
     }
     .sidebar-section {
         padding: 1rem;
