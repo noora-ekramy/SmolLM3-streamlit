@@ -417,7 +417,7 @@ def chat_page():
     
     # Display chat messages
     if st.session_state.messages:
-        st.subheader("Chat History")
+        st.subheader("Chat Messages")
         for message in st.session_state.messages:
             display_chat_message(message["role"], message["content"], show_thinking)
     else:
