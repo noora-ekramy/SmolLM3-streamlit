@@ -231,11 +231,20 @@ def display_chat_message(role: str, content: str, show_thinking: bool = True):
 
 def chat_page():
     """Chat interface page"""
-      if not st.session_state.has_started:
+     if not st.session_state.has_started:
         st.markdown('<div class="header">trex1.5 Chat Interface</div>', unsafe_allow_html=True)
         st.markdown('<div class="tagline">Advanced AI Chat with Customizable Parameters</div>', unsafe_allow_html=True)
         st.markdown('<div class="subtagline">Chat with trex1.5 model with full parameter control</div>', unsafe_allow_html=True)
-    
+
+    # باقي الكود بتاع الشات
+    if st.session_state.messages:
+        st.subheader("Chat History")
+        for message in st.session_state.messages:
+            display_chat_message(message["role"], message["content"], show_thinking)
+    else:
+        if not st.session_state.has_started:
+            st.info("Start a conversation with trex1.5! Enter your message below.")
+
     # Sidebar for API configuration and parameters
     with st.sidebar:
         st.header("Configuration")
