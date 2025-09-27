@@ -147,9 +147,9 @@ st.markdown("""
         border-radius: 8px; 
         padding: 12px; 
     }
-    .stBottom  {
-        background-color: #161616; 
-        border-top: 1px solid #FFFFFF0A; 
+    .st-emotion-cache-hzygls  {
+        background-color: #161616 !important; 
+        border: none !important; 
       
     }
     </style>
