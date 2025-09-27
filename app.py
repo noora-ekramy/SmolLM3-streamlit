@@ -79,7 +79,7 @@ st.markdown("""
     .chat-message.assistant {
         background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%),
         linear-gradient(0deg, rgba(82, 82, 82, 0.2), rgba(82, 82, 82, 0.2));
-
+        margin: 10px 0;
     }
     .chat-message .avatar {
         width: 40px;
