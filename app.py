@@ -170,17 +170,10 @@ st.markdown("""
     .st-emotion-cache-x1bvup .st-f8{
         background-color: transparent;
     }
-    .st-emotion-cache-x1bvup .st-e6 {
-        border:none !important
-    }
-    .st-emotion-cache-x1bvup .st-e5 {
-        border:none
-    }
-    .st-emotion-cache-x1bvup .st-e4 {
-        border:none
-    }
-    .st-emotion-cache-x1bvup .st-e3 {
-        border:none
+    .st-emotion-cache-x1bvup:focus-within{
+        box-shadow: 0px 0.84px 0px 0px #FFFFFF14 inset;
+        box-shadow: 2px 2px 19px 0px #FFFFFF1A;
+        border: 1px solid rgba(255, 255, 255, 0.1);
     }
     
     </style>
