@@ -54,6 +54,7 @@ st.markdown("""
         text-align: center;
         margin-top: -10px;
         margin-bottom: 10px;
+        background-color: #161616; 
     }
     .stChat > div {
         padding-top: 1rem;
