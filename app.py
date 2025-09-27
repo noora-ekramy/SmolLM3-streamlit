@@ -230,7 +230,7 @@ def display_chat_message(role: str, content: str, show_thinking: bool = True):
     <div class="chat-message {css_class}">
         <div class="avatar">{avatar}</div>
         <div style="flex: 1;">
-            <div style="font-weight: bold; margin-bottom: 0.5rem; color: #65daff;">
+            <div style="font-weight: bold; margin-bottom: 0.5rem; color: #808080;">
                 {'You' if role == 'user' else 'trex1.5'}
             </div>
             {content_html}
