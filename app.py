@@ -184,7 +184,7 @@ st.markdown("""
         border: 1px solid rgba(255, 255, 255, 0.1);
     }
     .st-emotion-cache-liupih{
-        padding-bottom: 20px;
+        padding-bottom: 25px;
     }
     
     </style>
