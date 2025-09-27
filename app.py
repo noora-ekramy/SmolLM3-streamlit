@@ -170,6 +170,18 @@ st.markdown("""
     .st-emotion-cache-x1bvup .st-f8{
         background-color: transparent;
     }
+    .st-emotion-cache-x1bvup .st-e6 {
+        border:none
+    }
+    .st-emotion-cache-x1bvup .st-e5 {
+        border:none
+    }
+    .st-emotion-cache-x1bvup .st-e4 {
+        border:none
+    }
+    .st-emotion-cache-x1bvup .st-e3 {
+        border:none
+    }
     
     </style>
     """, unsafe_allow_html=True)
