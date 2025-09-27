@@ -23,7 +23,7 @@ st.set_page_config(
 st.markdown("""
     <style>
     html, body, .stApp {
-        background-color: #041317; 
+        background-color: #161616; 
         height: 100%;
         margin: 0;
         padding: 0;
