@@ -114,7 +114,7 @@ st.markdown("""
         margin: 10px 0;
         
     }
-    .thinking-container{
+    .default-container{
         padding: 1rem;
         border-radius: 1.5rem;
         margin-bottom: 1rem;
@@ -261,10 +261,10 @@ def display_chat_message(role: str, content: str, show_thinking: bool = True):
         
         content_html = ""
         if thinking:
-            content_html += f'<div class="thinking-container"><div class="thinking-text">Thinking: {thinking}</div></div>'
-        content_html += f'<div class="thinking-container"><div class="response-text">{response}</div></div>'
+            content_html += f'<div class="default-container"><div class="thinking-text">Thinking: {thinking}</div></div>'
+        content_html += f'<div class="default-container"><div class="response-text">{response}</div></div>'
     else:
-        content_html = f'<div class="thinking-container"><div class="response-text">{content}</div></div>'
+        content_html = f'<div class="default-container"><div class="response-text">{content}</div></div>'
     
     st.markdown(f"""
     <div class="chat-message {css_class}">
@@ -482,7 +482,7 @@ def chat_page():
                     
                     # Show typing indicator
                     with message_placeholder:
-                        st.markdown('<div style="color: #cccccc; font-style: italic;">trex1.5 is typing...</div>', unsafe_allow_html=True)
+                        st.markdown('<div class="default-container"><div style="color: #cccccc; font-style: italic;">trex1.5 is typing...</div></div>', unsafe_allow_html=True)
                     
                     # Stream the response
                     for chunk in get_response(client, st.session_state.messages, api_params, stream=True):
@@ -501,7 +501,7 @@ def chat_page():
                 else:
                     # Non-streaming response
                     with message_placeholder:
-                        st.markdown('<div style="color: #cccccc; font-style: italic;">trex1.5 is generating response...</div>', unsafe_allow_html=True)
+                        st.markdown('<div class="default-container"><div style="color: #cccccc; font-style: italic;">trex1.5 is generating response...</div></div>', unsafe_allow_html=True)
                     
                     full_response = get_response(client, st.session_state.messages, api_params, stream=False)
                     
