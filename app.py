@@ -161,6 +161,9 @@ st.markdown("""
     .st-emotion-cache-x1bvup textarea {
             background-color: transparent;
     }
+    .st-emotion-cache-x1bvup .st-f9{
+    background-color:transparent;
+    }
     </style>
     """, unsafe_allow_html=True)
 
