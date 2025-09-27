@@ -159,7 +159,7 @@ st.markdown("""
         backdrop-filter: blur(42px) !important ;
     }
     .st-emotion-cache-x1bvup textarea {
-            background-color: #38383880;
+            background-color: transparent;
     }
     </style>
     """, unsafe_allow_html=True)
