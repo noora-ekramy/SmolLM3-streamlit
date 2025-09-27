@@ -112,6 +112,16 @@ st.markdown("""
         background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%),
         linear-gradient(0deg, rgba(82, 82, 82, 0.2), rgba(82, 82, 82, 0.2));
         margin: 10px 0;
+        flex-direction: row-reverse;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: flex-center;
+        background-color: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 0.84px 0px 0px #FFFFFF14 inset;
+        box-shadow: 2px 2px 19px 0px #FFFFFF1A;
     }
     .response-text {
         color: white;
