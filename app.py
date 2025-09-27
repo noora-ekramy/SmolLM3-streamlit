@@ -54,7 +54,6 @@ st.markdown("""
         text-align: center;
         margin-top: -10px;
         margin-bottom: 10px;
-        background-color: #161616; 
     }
     .stChat > div {
         padding-top: 1rem;
@@ -123,6 +122,9 @@ st.markdown("""
     }
     .stSlider > div > div > div > div {
         color: #65daff;
+    }
+     header[data-testid="stHeader"] {
+        background-color: #38383880;
     }
     </style>
     """, unsafe_allow_html=True)
