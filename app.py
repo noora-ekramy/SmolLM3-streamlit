@@ -42,7 +42,7 @@ st.markdown("""
     }
     .subtagline {
         font-size: 19px;
-        color: #fcfcfc;
+        color: #FFFFFF;
         text-align: center;
         padding:20px;
         margin-bottom: 20px;
@@ -50,7 +50,7 @@ st.markdown("""
      .header {
         font-size: 39px;
         font-weight: bold;
-        color: #65daff;
+        color: #FFFFFF;
         text-align: center;
         margin-top: -10px;
         margin-bottom: 10px;
