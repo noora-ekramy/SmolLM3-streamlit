@@ -106,11 +106,12 @@ st.markdown("""
         color: #cccccc;
         font-style: italic;
         font-weight: normal;
-        margin-bottom: 10px;
         padding: 8px;
-        background-color: rgba(255, 255, 255, 0.02);
         border-left: 3px solid #666;
         border-radius: 4px;
+        background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%),
+        linear-gradient(0deg, rgba(82, 82, 82, 0.2), rgba(82, 82, 82, 0.2));
+        margin: 10px 0;
     }
     .response-text {
         color: white;
