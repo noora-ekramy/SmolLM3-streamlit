@@ -6,12 +6,15 @@ import re
 from typing import Generator, Dict, Any
 from dotenv import load_dotenv
 
+# Import cost calculator
+from cost_calculator import cost_calculator_page
+
 # Load environment variables from .env file
 load_dotenv()
 
 # Page configuration
 st.set_page_config(
-    page_title="trex1.5 Chat Interface",
+    page_title="trex1.5 AI Platform",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -211,10 +214,8 @@ def display_chat_message(role: str, content: str, show_thinking: bool = True):
     </div>
     """, unsafe_allow_html=True)
 
-def main():
-    """Main application function"""
-    initialize_session_state()
-    
+def chat_page():
+    """Chat interface page"""
     # Title and description with custom styling
     st.markdown('<div class="header">trex1.5 Chat Interface</div>', unsafe_allow_html=True)
     st.markdown('<div class="tagline">Advanced AI Chat with Customizable Parameters</div>', unsafe_allow_html=True)
@@ -477,6 +478,24 @@ def main():
                     st.write(f"• '{seq}'")
             else:
                 st.write("• None")
+
+def main():
+    """Main application function with page navigation"""
+    initialize_session_state()
+    
+    # Navigation in sidebar
+    st.sidebar.title("Navigation")
+    page = st.sidebar.selectbox(
+        "Choose Page",
+        ["Chat Interface", "Cost Calculator"],
+        index=0
+    )
+    
+    # Route to appropriate page
+    if page == "Chat Interface":
+        chat_page()
+    elif page == "Cost Calculator":
+        cost_calculator_page()
 
 if __name__ == "__main__":
     main()
