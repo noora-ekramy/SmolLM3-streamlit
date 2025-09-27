@@ -468,31 +468,31 @@ def chat_page():
                     display_chat_message("assistant", error_msg, show_thinking)
                 st.session_state.messages.append({"role": "assistant", "content": error_msg})
 
-    # Display current parameters in an expander
-    with st.expander("Current Parameters", expanded=False):
-        col1, col2, col3 = st.columns(3)
+    # # Display current parameters in an expander
+    # with st.expander("Current Parameters", expanded=False):
+    #     col1, col2, col3 = st.columns(3)
         
-        with col1:
-            st.write("**Basic Parameters:**")
-            st.write(f"• Temperature: {temperature}")
-            st.write(f"• Top P: {top_p}")
-            st.write(f"• Max Tokens: {max_tokens}")
-            st.write(f"• Streaming: {'Enabled' if enable_streaming else 'Disabled'}")
+    #     with col1:
+    #         st.write("**Basic Parameters:**")
+    #         st.write(f"• Temperature: {temperature}")
+    #         st.write(f"• Top P: {top_p}")
+    #         st.write(f"• Max Tokens: {max_tokens}")
+    #         st.write(f"• Streaming: {'Enabled' if enable_streaming else 'Disabled'}")
         
-        with col2:
-            st.write("**Penalty Parameters:**")
-            st.write(f"• Frequency Penalty: {frequency_penalty}")
-            st.write(f"• Presence Penalty: {presence_penalty}")
-            st.write(f"• Seed: {seed if seed is not None else 'Random'}")
-            st.write(f"• Show Thinking: {'Yes' if show_thinking else 'No'}")
+    #     with col2:
+    #         st.write("**Penalty Parameters:**")
+    #         st.write(f"• Frequency Penalty: {frequency_penalty}")
+    #         st.write(f"• Presence Penalty: {presence_penalty}")
+    #         st.write(f"• Seed: {seed if seed is not None else 'Random'}")
+    #         st.write(f"• Show Thinking: {'Yes' if show_thinking else 'No'}")
         
-        with col3:
-            st.write("**Stop Sequences:**")
-            if stop:
-                for seq in stop:
-                    st.write(f"• '{seq}'")
-            else:
-                st.write("• None")
+    #     with col3:
+    #         st.write("**Stop Sequences:**")
+    #         if stop:
+    #             for seq in stop:
+    #                 st.write(f"• '{seq}'")
+    #         else:
+    #             st.write("• None")
 
 def main():
     """Main application function with page navigation"""
