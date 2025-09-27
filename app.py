@@ -74,7 +74,8 @@ st.markdown("""
         flex-direction: row-reverse;
         background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%);
         border: 0.84px solid var(--light-dark-1004, #FFFFFF0A)
-        
+        display: inline-block; 
+        width: fit-content;
     }
     .chat-message.assistant {
         background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%),
