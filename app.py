@@ -214,7 +214,9 @@ st.markdown("""
     .st-emotion-cache-19cfm8f div{
         background-color: transparent;
     }
-    
+     .st-emotion-cache-19cfm8f div button{
+        background-color: transparent;
+    }
     </style>
     """, unsafe_allow_html=True)
 
