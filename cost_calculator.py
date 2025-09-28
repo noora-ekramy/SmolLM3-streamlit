@@ -54,7 +54,7 @@ def cost_calculator_page():
         border-radius: 16px; 
         padding: 12px; 
     }
-    .stHeadingWithActionElements h3{
+    .metric-card h3{
         color: #FFFFFF;
     }
     .cost-breakdown {
