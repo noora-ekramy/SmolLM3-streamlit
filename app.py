@@ -238,6 +238,9 @@ st.markdown("""
         background-color: transparent ;
         border: none 
     }
+    .stSidebar .stTextInput  div[data-baseweb="base-input"] button {
+        border: none 
+    }
     .stSidebar .stTextInput  div[data-baseweb="input"] {
         border: 2px solid var(--light-dark-1004, #FFFFFF0A);
         background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%);
