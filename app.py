@@ -234,7 +234,7 @@ st.markdown("""
      .st-emotion-cache-19cfm8f div button{
         background-color: transparent;
     }
-    .stSidebar input {
+    .stSidebar div[data-baseweb="base-input"] input {
         background-color: transparent !important
         border: none !important
     }
