@@ -8,7 +8,7 @@ def cost_calculator_page():
     st.markdown("""
     <style>
     html, body, .stApp {
-        background-color: #041317; 
+        background-color: #161616; 
         height: 100%;
         margin: 0;
         padding: 0;
@@ -41,11 +41,11 @@ def cost_calculator_page():
         margin-bottom: 10px;
     }
     .sidebar-section {
-        background-color: rgba(255, 255, 255, 0.05);
         padding: 1rem;
         border-radius: 0.5rem;
         margin-bottom: 1rem;
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: linear-gradient(105.13deg, #292929 41.52% 41.52% , rgba(63, 63, 63, 0) 100%);
+        backdrop-filter: blur(87.27272033691406px)
     }
     .metric-card {
         background-color: rgba(101, 218, 255, 0.1);
