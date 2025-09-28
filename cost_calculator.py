@@ -55,7 +55,7 @@ def cost_calculator_page():
         padding: 12px; 
     }
     .metric-card h3{
-        color: #FFFFFF;
+        color: #ffffff90 !important;
     }
     .cost-breakdown {
         background-color: rgba(164, 255, 255, 0.05);
