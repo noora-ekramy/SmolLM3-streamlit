@@ -21,13 +21,13 @@ def cost_calculator_page():
     .tagline {
         font-size: 20px;
         font-weight: bold;
-        color: #a4ffff;
+        color: #FFFFFF;
         text-align: center;
         margin-top: -10px;
     }
     .subtagline {
         font-size: 14px;
-        color: #fcfcfc;
+        color: #FFFFFF;
         text-align: center;
         padding:20px;
         margin-bottom: 20px;
@@ -35,7 +35,7 @@ def cost_calculator_page():
      .header {
         font-size: 39px;
         font-weight: bold;
-        color: #65daff;
+        color: #FFFFFF;
         text-align: center;
         margin-top: -10px;
         margin-bottom: 10px;
