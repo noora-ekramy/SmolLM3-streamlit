@@ -234,9 +234,9 @@ st.markdown("""
      .st-emotion-cache-19cfm8f div button{
         background-color: transparent;
     }
-    .stSidebar div[data-baseweb="base-input"] input {
-        background-color: transparent !important
-        border: none !important
+    .stSidebar .stTextInput  div[data-baseweb="base-input"] input {
+        background-color: transparent ;
+        border: none 
     }
     .st-emotion-cache-1hiktyo:hover:enabled, .st-emotion-cache-1hiktyo:focus:enabled {
         background: linear-gradient(105.13deg, #292929 41.52% 41.52% , rgba(63, 63, 63, 0) 100%) !important
