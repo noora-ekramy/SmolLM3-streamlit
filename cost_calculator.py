@@ -71,7 +71,7 @@ def cost_calculator_page():
         padding: 12px; 
     }
     .cost-breakdown h4 {
-        color: #ffffff90 !important;
+        color: #FFFFFF !important;
     }
     .cost-breakdown span {
         color: #FFFFFF !important;
