@@ -14,7 +14,7 @@ load_dotenv()
 
 # Page configuration
 st.set_page_config(
-    page_title="trex1.5 AI Platform",
+    page_title="trex1.6 AI Platform",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -333,7 +333,7 @@ def display_chat_message(role: str, content: str, show_thinking: bool = True):
         <div class="avatar">{avatar}</div>
         <div style="flex: 1;">
             <div style="font-weight: bold; margin-bottom: 0.5rem; color: #808080;">
-                {'You' if role == 'user' else 'trex1.5'}
+                {'You' if role == 'user' else 'trex1.6'}
             </div>
             {content_html}
         </div>
@@ -342,9 +342,9 @@ def display_chat_message(role: str, content: str, show_thinking: bool = True):
 
 def chat_page():
     """Chat interface page"""
-    # st.markdown('<div class="header">trex1.5 Chat Interface</div>', unsafe_allow_html=True)
+    st.markdown('<div class="header">Trex1.6</div>', unsafe_allow_html=True)
     # st.markdown('<div class="tagline">Advanced AI Chat with Customizable Parameters</div>', unsafe_allow_html=True)
-    # st.markdown('<div class="subtagline">Chat with trex1.5 model with full parameter control</div>', unsafe_allow_html=True)
+    # st.markdown('<div class="subtagline">Chat with trex1.6 model with full parameter control</div>', unsafe_allow_html=True)
 
    
     # Sidebar for API configuration and parameters
@@ -503,7 +503,7 @@ def chat_page():
         for message in st.session_state.messages:
             display_chat_message(message["role"], message["content"], show_thinking)
     else:
-        st.info("Start a conversation with trex1.5! Enter your message below.")
+        st.info("Start a conversation with trex1.6! Enter your message below.")
     
     # Chat input
     if prompt := st.chat_input("Type your message here..."):
@@ -544,7 +544,7 @@ def chat_page():
                     
                     # Show typing indicator
                     with message_placeholder:
-                        st.markdown('<div class="default-container"><div style="color: #cccccc; font-style: italic;">trex1.5 is typing...</div></div>', unsafe_allow_html=True)
+                        st.markdown('<div class="default-container"><div style="color: #cccccc; font-style: italic;">trex1.6 is typing...</div></div>', unsafe_allow_html=True)
                     
                     # Stream the response
                     for chunk in get_response(client, st.session_state.messages, api_params, stream=True):
@@ -563,7 +563,7 @@ def chat_page():
                 else:
                     # Non-streaming response
                     with message_placeholder:
-                        st.markdown('<div class="default-container"><div style="color: #cccccc; font-style: italic;">trex1.5 is generating response...</div></div>', unsafe_allow_html=True)
+                        st.markdown('<div class="default-container"><div style="color: #cccccc; font-style: italic;">trex1.6 is generating response...</div></div>', unsafe_allow_html=True)
                     
                     full_response = get_response(client, st.session_state.messages, api_params, stream=False)
                     
