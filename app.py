@@ -342,8 +342,8 @@ def display_chat_message(role: str, content: str, show_thinking: bool = True):
 
 def chat_page():
     """Chat interface page"""
-    st.markdown('<div class="header">trex1.5 Chat Interface</div>', unsafe_allow_html=True)
-    st.markdown('<div class="tagline">Advanced AI Chat with Customizable Parameters</div>', unsafe_allow_html=True)
+    # st.markdown('<div class="header">trex1.5 Chat Interface</div>', unsafe_allow_html=True)
+    # st.markdown('<div class="tagline">Advanced AI Chat with Customizable Parameters</div>', unsafe_allow_html=True)
     # st.markdown('<div class="subtagline">Chat with trex1.5 model with full parameter control</div>', unsafe_allow_html=True)
 
    
