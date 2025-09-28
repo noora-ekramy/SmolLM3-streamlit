@@ -234,6 +234,10 @@ st.markdown("""
      .st-emotion-cache-19cfm8f div button{
         background-color: transparent;
     }
+    .stTextInput > div > div > input {
+        background-color: transparent !important
+        border: none !important
+    }
     </style>
     """, unsafe_allow_html=True)
 
