@@ -92,7 +92,7 @@ def cost_calculator_page():
     .st-emotion-cache-55l0h8{
        background:black
     }
-    .st-emotion-cache-1hiktyo:hover{
+    .stSidebar button:hover{
       linear-gradient(105.13deg, #292929 41.52% 41.52% , rgba(63, 63, 63, 0) 100%) !important
     }
     </style>
