@@ -53,6 +53,7 @@ def cost_calculator_page():
         border: 2px solid var(--light-dark-1004, #FFFFFF0A);
         border-radius: 16px; 
         padding: 12px; 
+        margin: 10px 0
     }
     .metric-card h3{
         color: #ffffff90 !important;
