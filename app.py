@@ -238,6 +238,9 @@ st.markdown("""
         background-color: transparent !important
         border: none !important
     }
+    .st-emotion-cache-1hiktyo:hover:enabled, .st-emotion-cache-1hiktyo:focus:enabled {
+        background: linear-gradient(105.13deg, #292929 41.52% 41.52% , rgba(63, 63, 63, 0) 100%) !important
+    }
     </style>
     """, unsafe_allow_html=True)
 
