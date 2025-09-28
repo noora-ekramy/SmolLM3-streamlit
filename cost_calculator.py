@@ -86,6 +86,9 @@ def cost_calculator_page():
         margin: 1rem 0;
         color: #ffc107;
     }
+    .st-emotion-cache-11ofl8m{
+        background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%) !important;
+    }
     </style>
     """, unsafe_allow_html=True)
     
