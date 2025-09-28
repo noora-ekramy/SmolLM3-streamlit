@@ -74,7 +74,7 @@ def cost_calculator_page():
         color: #ffffff90 !important;
     }
     .cost-breakdown span {
-        color: #ffffff90 !important;
+        color: #FFFFFF !important;
     }
     .warning-box {
         background-color: rgba(255, 193, 7, 0.1);
