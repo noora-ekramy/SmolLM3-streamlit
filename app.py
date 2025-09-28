@@ -74,7 +74,7 @@ st.markdown("""
     .chat-message.user {
         margin-top:10px;
         background: linear-gradient(180deg, rgba(17, 17, 17, 0.02) 0%, rgba(32, 32, 32, 0.02) 100%);
-        border: 0.84px solid var(--light-dark-1004, #FFFFFF0A)
+    
         display: inline-block; 
         
     }
