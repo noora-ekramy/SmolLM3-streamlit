@@ -54,6 +54,9 @@ def cost_calculator_page():
         border-radius: 16px; 
         padding: 12px; 
     }
+    .stHeadingWithActionElements h3{
+        color: #FFFFFF;
+    }
     .cost-breakdown {
         background-color: rgba(164, 255, 255, 0.05);
         padding: 1rem;
