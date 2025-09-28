@@ -48,14 +48,7 @@ def cost_calculator_page():
         backdrop-filter: blur(87.27272033691406px)
     }
     .metric-card {
-        background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%);
-        color: white; 
-        border: 2px solid var(--light-dark-1004, #FFFFFF0A);
-        border-radius: 16px; 
-        padding: 12px; 
-    }
-    .cost-breakdown{
-        background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%);
+        background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%) ;
         color: white; 
         border: 2px solid var(--light-dark-1004, #FFFFFF0A);
         border-radius: 16px; 
@@ -70,12 +63,18 @@ def cost_calculator_page():
     .metric-card p{
         color: #ffffff90 !important;
     }
-    .cost-breakdown {
-        background-color: rgba(164, 255, 255, 0.05);
-        padding: 1rem;
-        border-radius: 0.5rem;
-        margin-bottom: 1rem;
-        border: 1px solid rgba(164, 255, 255, 0.1);
+    .cost-breakdown{
+        background: linear-gradient(105.13deg, #1C1C1C 41.52%, rgba(63, 63, 63, 0) 100%) !important;
+        color: white; 
+        border: 2px solid var(--light-dark-1004, #FFFFFF0A);
+        border-radius: 16px; 
+        padding: 12px; 
+    }
+    .cost-breakdown h4 {
+        color: #ffffff90 !important;
+    }
+    .cost-breakdown span {
+        color: #ffffff90 !important;
     }
     .warning-box {
         background-color: rgba(255, 193, 7, 0.1);
